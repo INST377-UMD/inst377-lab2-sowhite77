@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>CSS is Rad!</title>
+        <style>
+            body {
+                background-color: honeydew;
+                text-align: center;
+            }
+            .input-container {
+                margin: 20px;
+                padding: 10px;
+            }
+            label {
+                font-size: 18px;
+            }
+            .input-container input[type="text"] {
+                width: 80%;
+                padding: 5px;
+                margin-top: 5px;
+            }
+            input[type="submit"] {
+                background-color: purple;
+                color: white;
+                padding: 10px;
+                border: none;
+                cursor: pointer;
+                margin-top: 20px; 
+            }
+            input[type="submit"]:hover {
+                background-color: gold;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Hey you!</h1>
+        <div class="input-container">
+            <form name="nameForm" method="get" action="LAB2_formsuccess_SophiaW.html">
+                <label>Enter your name and a fun fact:</label>
+                <input type="text" required>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>
