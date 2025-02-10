@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Contact Form</title>
+        <style>
+            body {
+        background-color: lightpink;
+    }
+    .form-container {
+        background-color: whitesmoke;
+        padding: 20px;
+        margin: 50px;
+    }
+    label {
+        font-size: 18px;
+    }
+    input[type="text"]{
+        background-color: whitesmoke;
+        color: black;
+        margin-bottom: 10px;
+    }
+    input[type="submit"] {
+        background-color: rgb(101, 141, 101);
+        color: whitesmoke;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        background-color: green;
+    }
+        </style>
+    </head>
+
+    <body>
+   
+        <h1>Contact Form</h1>
+        <form name="contactForm" method="get" action="LAB2_formsuccess_SophiaW.html">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" required>
+            <br>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" required>
+            <br>
+            <hr>
+            <label for="inquiryDate">Inquiry Date:</label>
+            <input type="date" id="inquiryDate" required>
+
+            <br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
